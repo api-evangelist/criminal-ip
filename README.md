@@ -64,5 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Criminal IP is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://criminalip.io/
+Criminal IP provides a comprehensive threat intelligence platform that aggregates, analyzes, and delivers real‑time cyber threat data. Its services include a search engine for IPs, domains, and other assets, attack surface monitoring (ASM), and fraud detection solutions (FDS). The platform helps security teams across financial services, government, healthcare, gaming, and manufacturing sectors to uncover exposed assets, detect malicious activity, and reduce risk through enriched context and AI‑powered insights.
+
+**Areas:** Company · Threat Intelligence · Cybersecurity · API · Data
+
+## Criminal IP on APIs.io
+
+Everything profiled for Criminal IP is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/criminal-ip/](https://apis.io/providers/criminal-ip/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Criminal IP API](https://apis.io/apis/criminal-ip/criminal-ip-api-2/) — Provides threat intelligence endpoints such as IP, domain, asset reports and more, as listed on the developer integration page.
+- [Criminal IP API](https://apis.io/apis/criminal-ip/criminal-ip-api/) — Criminal IP API as documented publicly: 45 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GetIpVpnResponse](https://apis.io/schemas/criminal-ip/criminal-ip-get-ip-vpn-response/)
+- [GetV1AssetSearchResponse](https://apis.io/schemas/criminal-ip/criminal-ip-get-v1-asset-search-response/)
+- [GetV1BannerStatsResponse](https://apis.io/schemas/criminal-ip/criminal-ip-get-v1-banner-stats-response/)
+- [PostV1UserMeResponse](https://apis.io/schemas/criminal-ip/criminal-ip-post-v1-user-me-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Criminal Ip Context](https://apis.io/jsonld/criminal-ip/criminal-ip-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Criminal IP API Rules](https://apis.io/rules/criminal-ip/criminal-ip-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Criminal IP Domain Security](https://apis.io/security/criminal-ip/criminal-ip-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://criminalip.io/)
+- [Terms of service](https://www.criminalip.io/about/terms-of-service)
+- [Privacy policy](https://www.criminalip.io/about/privacy)
+- [GitHub](https://github.com/criminalip)
+
+## API Evangelist rating
+
+**Kin Score 33.6** — thin · rubric 0.28.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 45.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 17.0 |
+
+**Agent readiness 15.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/criminal-ip/](https://apis.io/providers/criminal-ip/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Criminal IP: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/criminal-ip/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
